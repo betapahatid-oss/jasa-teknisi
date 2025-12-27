@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('../img/hero.jpg') center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background: #0a4d8c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* SECTION */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* SERVICES */
+.services {
+    background: white;
+}
+
+.service-box {
+    background: #f0f0f0;
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/* WHY */
+.why ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why li {
+    margin: 10px 0;
+}
+
+/* FORM */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+}
+
+form button {
+    background: #0a4d8c;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+}

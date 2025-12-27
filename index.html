@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Jasa Instalasi Listrik, Plumbing & CCTV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Jasa Instalasi Profesional</h1>
+        <p>Listrik • Plumbing • Sanitary • CCTV</p>
+        <button onclick="hubungi()">Konsultasi Gratis</button>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+    <h2>Tentang Kami</h2>
+    <p>
+        Kami adalah penyedia jasa instalasi listrik, plumbing, sanitary, dan CCTV
+        dengan tenaga berpengalaman dan harga kompetitif.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+    <h2>Layanan Kami</h2>
+
+    <div class="service-box">
+        <h3>⚡ Instalasi Listrik</h3>
+        <p>Instalasi baru, perbaikan, panel listrik, grounding.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>🚿 Plumbing</h3>
+        <p>Pipa air, pompa, perbaikan kebocoran.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>🚽 Sanitary</h3>
+        <p>Pemasangan closet, wastafel, shower.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>📷 CCTV</h3>
+        <p>Pemasangan kamera, DVR/NVR, monitoring HP.</p>
+    </div>
+</section>
+
+<!-- WHY US -->
+<section class="why">
+    <h2>Mengapa Memilih Kami?</h2>
+    <ul>
+        <li>✔ Teknisi berpengalaman</li>
+        <li>✔ Harga transparan</li>
+        <li>✔ Bergaransi</li>
+        <li>✔ Respon cepat</li>
+    </ul>
+</section>
+
+<!-- ORDER FORM -->
+<section class="order">
+    <h2>Form Pemesanan</h2>
+    <form>
+        <input type="text" placeholder="Nama" required>
+        <input type="tel" placeholder="No WhatsApp" required>
+        <select>
+            <option>Pilih Layanan</option>
+            <option>Instalasi Listrik</option>
+            <option>Plumbing</option>
+            <option>Sanitary</option>
+            <option>CCTV</option>
+        </select>
+        <textarea placeholder="Detail Pekerjaan"></textarea>
+        <button type="submit">Kirim Permintaan</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 PT Solusi Teknik Mandiri</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
