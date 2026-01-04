@@ -2,54 +2,65 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Jasa Servis & Rakit Speaker</title>
+    <title>Servis & Toko Elektronik</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Jasa Servis & Rakit Elektronik</h1>
-    <p>Speaker • Amplifier • Peralatan Rumah Tangga</p>
-    <a href="#kontak" class="btn">Hubungi Kami</a>
+<header class="hero">
+    <h1>Servis & Toko Elektronik</h1>
+    <p>Servis • Rakit Speaker • Jual Peralatan Elektronik</p>
+    <a href="#produk" class="btn">Lihat Produk</a>
 </header>
 
 <nav>
     <a href="#layanan">Layanan</a>
-    <a href="#tentang">Tentang</a>
+    <a href="#produk">Produk</a>
     <a href="#kontak">Kontak</a>
 </nav>
 
 <section id="layanan">
     <h2>Layanan Kami</h2>
-    <div class="cards">
-        <div class="card">Servis Speaker Aktif & Pasif</div>
-        <div class="card">Rakit Speaker Custom</div>
-        <div class="card">Servis Amplifier</div>
-        <div class="card">Servis Peralatan Rumah Tangga</div>
-        <div class="card">Instalasi Audio Rumah</div>
+    <div class="grid">
+        <div class="card">🔧 Servis Speaker & Amplifier</div>
+        <div class="card">🔊 Rakit Speaker Custom</div>
+        <div class="card">🏠 Servis Elektronik Rumah</div>
+        <div class="card">📦 Instalasi Audio</div>
     </div>
 </section>
 
-<section id="tentang">
-    <h2>Tentang Kami</h2>
-    <p>
-        Kami melayani jasa servis dan perakitan speaker serta berbagai
-        peralatan elektronik rumah tangga dengan teknisi berpengalaman
-        dan harga terjangkau.
-    </p>
+<section id="produk">
+    <h2>Produk Dijual</h2>
+    <div class="grid produk">
+
+        <div class="card">
+            <img src="images/speaker.jpg">
+            <h3>Speaker 12 Inch</h3>
+            <p>Rp 850.000</p>
+            <button onclick="beliProduk('Speaker 12 Inch')">Beli</button>
+        </div>
+
+        <div class="card">
+            <img src="images/amplifier.jpg">
+            <h3>Amplifier 300 Watt</h3>
+            <p>Rp 1.200.000</p>
+            <button onclick="beliProduk('Amplifier 300 Watt')">Beli</button>
+        </div>
+
+    </div>
 </section>
 
 <section id="kontak">
-    <h2>Kontak Kami</h2>
-    <form id="formKontak">
+    <h2>Pesan Servis</h2>
+    <form id="formServis">
         <input type="text" id="nama" placeholder="Nama Anda" required>
-        <input type="text" id="pesan" placeholder="Jenis Servis" required>
-        <button type="submit">Kirim via WhatsApp</button>
+        <input type="text" id="jenis" placeholder="Jenis Servis" required>
+        <button type="submit">Kirim WhatsApp</button>
     </form>
 </section>
 
 <footer>
-    <p>© 2026 Jasa Servis Elektronik</p>
+    <p>© 2026 Servis & Toko Elektronik</p>
 </footer>
 
 <script src="js/script.js"></script>
